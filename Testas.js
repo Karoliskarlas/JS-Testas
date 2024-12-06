@@ -183,3 +183,18 @@ function dienuIkiKaledu() {
 }
 
 dienuIkiKaledu();
+
+
+// 9.Parašykite kodą, kuris apjungia masyvo duomenis į vieną
+// tekstinę eilutę. Turėtumėte gauti tokį rezultatą:
+// Tomas,Dainius,Paulius,Jonas
+// Tomas+Dainius+Paulius+Jonas
+
+console.log("\n");
+
+
+let vardai = ["Tomas", "Dainius", "Paulius", "Jonas"];
+let perKableli = vardai.join(",")
+console.log(perKableli)
+let suPliusu = vardai.join("+")
+console.log(suPliusu)
