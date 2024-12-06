@@ -1,5 +1,5 @@
 function konvertacija(eurai) {
-    let kursoKaina = 1.050;
+    let kursoKaina = 1.040;
     console.log(`Eur kursas ${kursoKaina.toFixed(2)}`);
     let usd = eurai * kursoKaina;
 
